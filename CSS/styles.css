@@ -6,6 +6,7 @@
     --white: #fff;
     --text-gray: #4a4a4a;
     --text-light-gray: #aaa;
+    --star-yellow: #FFBB3A;
 }
 
 *{
@@ -13,7 +14,7 @@
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
 margin: 0;
 }
 
@@ -35,7 +36,7 @@ nav {
     justify-content: space-between;
 }
 
-nav h1{
+nav h1 {
 
     font-size: 24px;
     font-weight: 700;
@@ -54,16 +55,16 @@ a, a:hover {
     color: unset;
 }
 
-.dsmovie-contact-container{
+.dsmovie-contact-container {
     display: flex;
     align-items: center;
 }
 
-.dsmovie-contact-container img{
+.dsmovie-contact-container img {
     margin-right: 10px;
 }
 
-#dsmovie-card-list{
+#dsmovie-card-list {
     padding: 40px 0;
 
 }
@@ -84,13 +85,36 @@ flex-direction: column;
 align-items: center;
 justify-content: space-between;
 border-radius: 0 0 8px 8px;
-min-height: 150px;
+height: 220px;
 }
 
-.dsmovie-card-description h3{
+.dsmovie-card-description h3 {
 margin-bottom: 25px;
 font-size: 14px;
 font-weight: 700;
+}
+
+.dsmovie-card-description-bottom {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.dsmovie-card-description-bottom p{
+font-size: 12px;
+font-weight: 400;
+color: var(--text-light-gray);
+margin-bottom: 10px;
+}
+
+.dsmovie-card-description-bottom h4 {
+font-size: 16px;
+font-weight: 700;
+color: var(--star-yellow);
+}
+
+.dsmovie-card-description-bottom img {
+width: 22px;
 }
 
 .dsmovie-btn, .dsmovie-btn:hover {
